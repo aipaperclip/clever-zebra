@@ -80,7 +80,7 @@ export default class GridItem extends React.Component {
                 					{_.get(item, 'subtitle', null) && (
                 					<p className={classNames('item__subtitle', {'text-center': title_align_x === 'center', 'text-right': title_align_x === 'right'})}>
                 						{_.get(item, 'subtitle', null)}
-                					</p>
+         <script src="https://js.chargebee.com/v2/chargebee.js" data-cb-site="techonomics-test" ></script>       					</p>
                 					)}
                 					{_.get(item, 'content', null) && (
                 					<div className={classNames('item__copy', {'text-center': content_align_x === 'center', 'text-right': content_align_x === 'right'})}>
